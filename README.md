@@ -1,3 +1,13 @@
+# Fork that adds the following features:
+
+- Update tasks if docker containers are started, stopped, restarted, or changed
+- Do not require a dummy task on the ofelia container just to use ofelia
+- Support INI and docker labels at the same time. The configs will simply be merged
+- Do not require ofelia to restart in order to pick up new or remove tasks
+
+#### Waiting on PR: https://github.com/mcuadros/ofelia/pull/137 for upstream merge
+
+
 # Ofelia - a job scheduler [![GitHub version](https://badge.fury.io/gh/mcuadros%2Fofelia.svg)](https://github.com/mcuadros/ofelia/releases) ![Test](https://github.com/mcuadros/ofelia/workflows/Test/badge.svg)
 
 <img src="https://weirdspace.dk/FranciscoIbanez/Graphics/Ofelia.gif" align="right" width="180px" height="300px" vspace="20" />
